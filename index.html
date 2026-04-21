@@ -2,60 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fitness Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerFit Gym</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- HERO SECTION -->
-  <header class="hero">
-    <h1>🔥 Fitness Gym</h1>
-    <p>Transform Your Body, Transform Your Life</p>
-    <a href="#join" class="btn">Join Now</a>
+  <!-- NAV -->
+  <header class="nav">
+    <h2>PowerFit 💪</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#plans">Plans</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <h2>About Us</h2>
-    <p>
-      Welcome to our fitness gym. We help you stay strong, healthy and confident.
-      Train with the best equipment and expert trainers.
-    </p>
-    <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="gym">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Build Your Best Body</h1>
+      <p>Train Hard. Stay Strong. Never Quit.</p>
+      <a class="btn" href="#plans">Join Now</a>
+    </div>
   </section>
 
   <!-- SERVICES -->
-  <section class="services">
+  <section id="services" class="section">
     <h2>Our Services</h2>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1571019613914-85f342c6a0c9">
-      <h3>Weight Training</h3>
-    </div>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd">
+        <h3>Strength Training</h3>
+      </div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
-      <h3>Cardio</h3>
-    </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
+        <h3>Cardio</h3>
+      </div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5">
-      <h3>Yoga</h3>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a">
+        <h3>Yoga</h3>
+      </div>
     </div>
-
   </section>
 
-  <!-- JOIN -->
-  <section id="join" class="join">
-    <h2>Join Us Today</h2>
-    <p>Be part of our fitness family 💪</p>
-    <button class="btn">Get Membership</button>
+  <!-- PLANS -->
+  <section id="plans" class="plans">
+    <h2>Membership Plans</h2>
+
+    <div class="grid">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>Rs 2000/month</p>
+      </div>
+
+      <div class="plan premium">
+        <h3>Premium</h3>
+        <p>Rs 5000/month</p>
+      </div>
+
+      <div class="plan">
+        <h3>Elite</h3>
+        <p>Rs 8000/month</p>
+      </div>
+    </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: powerfit@gym.com</p>
+    <p>Phone: 03xx-xxxxxxx</p>
+  </section>
+
   <footer>
-    <p>© 2026 Fitness Gym | Made by Eshal</p>
+    <p>© 2026 PowerFit Gym</p>
   </footer>
 
 </body>

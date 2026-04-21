@@ -70,9 +70,8 @@ body {
   border-radius: 10px;
 }
 
-/* PREMIUM */
 .premium {
-  border: 2px solid red;
+  border: 2px solid #00ffcc;
 }
 
 /* FOOTER */

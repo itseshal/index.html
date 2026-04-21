@@ -1,52 +1,67 @@
 body {
   margin: 0;
-  font-family: Arial;
-  background: #111;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
   color: white;
-  text-align: center;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
 /* HERO */
 .hero {
+  height: 90vh;
   background: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438') center/cover;
-  padding: 120px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.hero h1 {
+.hero-text h1 {
   font-size: 50px;
 }
 
 .btn {
   background: red;
-  color: white;
   padding: 12px 25px;
+  color: white;
   text-decoration: none;
   border-radius: 25px;
 }
 
 /* SECTIONS */
-section {
-  padding: 50px 20px;
+.section, .plans, .contact {
+  padding: 60px 20px;
+  text-align: center;
 }
 
-.about img {
-  width: 300px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-/* CARDS */
-.services {
+/* GRID */
+.grid {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.card {
-  background: #222;
+/* CARDS */
+.card, .plan {
+  background: #1c1c1c;
   padding: 15px;
-  width: 200px;
+  width: 220px;
   border-radius: 10px;
 }
 
@@ -55,13 +70,14 @@ section {
   border-radius: 10px;
 }
 
-/* JOIN */
-.join {
-  background: red;
+/* PREMIUM */
+.premium {
+  border: 2px solid red;
 }
 
 /* FOOTER */
 footer {
-  background: #000;
+  background: black;
   padding: 10px;
+  text-align: center;
 }
